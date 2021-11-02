@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:\Users\ADMIN-SURV\Desktop\training_guide\styles.css">
+</head>
+
+<body>
+  <nav style="display: grid;
+        justify-content: center">
+    <ul>
+      <li><a href="../index.html" class="button">Home</button></li>
+      <li><a href="../Pages/software.html">Software Introduction</a></li>
+      <li><a href="../Pages/serverRoom.html">Server Room</a></li>
+      <li><a href="../Pages/gamingRegs.html">Gaming Regulations</a></li>
+      <li><a href="../Pages/operations.html">Operations</a></li>
+      <!-- <li><a href="Pages\equipment.html">Our Equipment</a></li> -->
+      <li><a href="../Pages/wireTracing.html">Wire Tracing 101</a></li>
+      <li><a href="References">References</a></li>
+    </ul>
+  </nav>
+
+  <h1>Equipment</h1></br></br>
+  <div class="container">
+    <h2>Digital Cameras</h2>
+    <div style="display: grid; justify-content: center;padding-bottom: 2em; padding-top: .5em;">
+      <img id="noAtts" style="display:grid ; justify-self: center; width:300px ; height:auto ; padding-bottom: 2em;"
+        src="../Images/avigilonlogo.png" alt="Logo">
+    </div>
+
+    <!-- <div class="row">
+    <div class="col">
+      <img src="../Images/avigilonlogo.png" alt="Logo" class="avigLogo">
+    </div>
+    <div class="col">
+      <h2>Aviglon</h2>
+    </div>
+  </div> -->
+
+    <!-- DIGITAL CAMERAS ----------------------------------------------- -->
+
+    <div class="row" style="padding-bottom: 1em">
+      <div class="col">
+        <b>What is a PTZ Camera?</b></br>
+
+        -Pan, Tilt, Zoom</br>
+        -Cameras able to pan left-right, tilt up-down, and zoom in and out</br>
+        -Gernally used in wide open spaces or areas that require 180 or 360 degree coverage</br>
+      </div>
+
+      <div style="padding-bottom:20px" class="col">
+        <b>What is a fixed camera?</b></br>
+        - Cameras that are unable to move.</br>
+        - Generally in Bullet or Dome styles</br>
+        - Often in used in areas that a fixed image is always required</br>
+        - Since they are static, you know it will always cover that area
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col label"> H4 Dome Camera</br>
+        <img id="roundImage" src="../Images/h4a_dome.png" alt="H4 Dome">
+      </div>
+      <div class="col label">H4 Bullet Camera </br>
+        <img id="roundImage" src="../Images/h4a_bullet.png" alt="H4 Bullet">
+      </div>
+      <div class="col label">H4 Multi-sensor(180)</br>
+        <img id="roundImage" src="../Images/h4180.png" alt="H4 180 dgree">
+      </div>
+      <div style="justify-content: right" class="col label">H5SL Dome Camera</br>
+        <img style="width:300px; height:auto" id="roundImage" src="../Images/h5sl_dome.jpg">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col label" style="justify-content: center">H4 PTZ </br>
+        <img id="roundImage" src="../Images/H4 ptz.png" alt="H4 PTZ">
+      </div>
+      <div class="col label" style="justify-content: center">H5A PTZ</br>
+        <img style="width:300px; height:auto ; background-color: white;" id="roundImage" src="../Images/h5aPTZ.png"
+          alt="H5A PTZ">
+      </div>
+    </div>
+  </div>
+
+  <!-- ANALOG CAMERAS ----------------------------------------------- -->
+  <div class="container">
+    <div>
+      <h2 style="padding-top: 5rem;">Analog Cameras</h2>
+      <!-- <img id="noAtts" style="display:grid ; justify-self: center; width:300px ; height:auto ; padding-bottom: 2em;"
+        src="../Images/ganz.png" alt="ganz"> -->
+    </div>
+
+    <div style="padding-top: 5rem" class="row">
+      <div class="col" style="justify-self: left;">
+        -Standard definition security cameras, AKA CCTV Cameras</br>
+        -Simple to setup and use</br>
+        -Coax line with BNC connectors on each end runs directly from camera to either monitor or DVR</br>
+        -DVR records video and sends to monitor</br>
+        -Being phased out by IP Cameras</br></br>
+        <div style="width:fit-content;height: fit-content;">
+          <img src="../Images/ganzcamera.png" alt="ganz camera">
+        </div>
+      </div>
+      <div class="col" style="justify-content: center;">
+        <img style="width:300px; height:auto;" src="../Images/ganz diagram.png" alt="Ganz Diagram">
+      </div>
+      <div class="col" style="justify-self: right;">
+        Since our adoption of IP Cameras, most of our analog cameras have been given the capability to transmit data
+        over</br>
+        twisted-pair wire with the addition of a NVT. That data is sent to a receiver and the receiver uses a Coax cable
+        to</br>
+        send the image to Encoder that converts the image to digital, giving the swith the ability to recognize the data
+        and</br>
+        transmit it over the network.
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Encoder ------------------------------------------------ -->
+  <div class="container">
+    <h2 style="padding-top: 3rem; ">Encoders</h2>
+    <div class="row">
+      <div style="font-size: larger;align-items: flex-start; padding-left:15%;padding-top:3rem" class="col">
+        Converts a standard analog video feed into a digital stream, enabling digital images to be sent over an IP
+        network. You can then view live images on your IP network using video management software and add IP-based
+        cameras
+        as your budget allows.
+      </div>
+      <div class="col" style="align-items: flex-start">
+        <img style="width:600px;height:auto" src="../Images/encoder.jpg" alt="Encoder">
+      </div>
+    </div>
+  </div>
+  <div>
+
+  </div>
+
+  <!-- Receivers--------------------------------------------------------- -->
+  <div class="container">
+    <h2 style="padding-top: 5rem; padding-bottom:2rem">Receivers and NVT's</h2>
+
+    <br>
+    <div class="row">
+      <div class="col">
+        Our video encoder is a cost-effective way to migrate your legacy analog system to a network-based IP-system.
+        You get the benefits of a digital system while still using your analog cameras, enabling you to migrate to a
+        fully
+        digital system when you’re ready.
+        <img src="../Images/activerec.png" alt="Active receiver">
+
+      </div>
+      <div class="col">
+        Converts a standard analog video feed into a digital stream, enabling digital images to be sent over an IP
+        network. You can then view live images on your IP network using video management software and add IP-based
+        cameras
+        as your budget allows.
+        <img src="../Images/cctvrec.png" alt="cctv recevier">
+      </div>
+    </div>
+    <br class="row">
+    A common problem we find within our system is the wiring behind a receiver. Each BNC Port(out) has a termination of
+    Cat wire(in) that correspond to eachother.</br>
+    When an analog camera shot is down, it is important to check that there is an image coming from the BNC port for
+    that specific camera.</br>
+    If there isn't make sure the wires are properly terminated and secured within the receiver.
+  </div>
+  </div>
+  </div>
+
+  <!-- Servers-------------------------------------------- -->
+  <div style="padding-top:6em" class="container">
+    <div>
+      <h2>Servers</h2>
+    </div>
+    <div class="row" style="height:300px; justify-content: center;padding-top:3em">
+      <img style="height: fit-content; width:600px" src="../Images/avignvr.jpg" alt="avigilon server">
+    </div>
+    <div class="row">
+      <div style="justify-content: center;" class="col">
+        <h3><u>Avigilon NVR</u> </h3>
+        Network Video Recorder also known as a Server.
+        An NVR is responsible for capturing, saving, and allowing the data to be played back on the Avigilon Control Center Client
+        It also holds the software that makes our digital camerass Analytic-capable. Giving the system and whatever cameras that are connected
+        to that server capabilities for appearance search, facial recognition, license plate recognition and more. The server gives our observers the 
+        capability of monitoring live and recorded footage. The server captures and retains image data and retains it until memory is needed, then the 
+        oldest data will be kicked off. These servers also have RAID 5 or 6, which is just a fancy way of the harddrives each backing eachother up in case of failure.
+      </div>
+      <div style="justify-content: center;" class="col">
+        <h3><u>Dell Server</u></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="supertitle">Cables and Wiring</div>
+          <div class="supertitle">Tools</div>
+          <div class="supertitle">Switches</div>
+ -->
+
+
+
+</body>
+
+</html>
