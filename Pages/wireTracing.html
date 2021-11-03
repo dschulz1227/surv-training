@@ -2,10 +2,36 @@
 
 <html>
 
-<head>
+<!-- <head>
     <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow”
         integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
     <link rel="stylesheet" href="C:\Users\ADMIN-SURV\Desktop\training_guide\styles.css">
+</head> -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\ADMIN-SURV\Desktop\training_guide\styles.css">
+
+    <style>
+        /* img {
+            width: 250px;
+            height: 250px;
+            position: relative;
+        }; */
+
+        #comparison{
+            width: 500px;
+            height:auto;
+            display: flex;
+            justify-self: center;
+            align-self: center;
+        }
+    </style>
+
+
 </head>
 
 <body>
@@ -14,36 +40,82 @@
         <ul>
             <li><a href="../index.html" class="button">Home</button></li>
             <li><a href="../Pages/serverRoom.html">Server Room</a></li>
-            <li><a href="../Pages/gamingRegs.html">Gaming Regulations</a></li>
-            <li><a href="../Pages/operations.html">Operations</a></li>
             <li><a href="../Pages/equipment.html">Our Equipment</a></li>
             <li><a href="../Pages/software.html">Software</a></li>
             <li><a href="References">References</a></li>
         </ul>
     </nav>
-    <!-- <div class="container">
-        <div>
-            <h2>Cables and Wires</h2>
+
+    <div>
+        <h2>Cables and Wire</h2>
+    </div>
+
+    <div class="container">
+        <div style="display: grid; justify-content: center">
+            <h3>Coaxial Cable</h3>
         </div>
+    </div>
 
-        <div>
-            -Connect toner to pair of wires, and use probe to trace out existing, nonpowered circuits</br>
-            -Probe will let out a tone when near the wires that are being traced</br>
-            -The louder the tone, the closer you are</br>
-            -Loudest when touching bare metal wire</br>
-
-            Remember!
-
-            -Lines may not lead from one place to another directly</br>
-            -Line may have a splice up or down the cable path</br>
-            -Some pairs of Cat cable may be being used as a means for power, tied into a power cable
-
+    <div class="container">
+        <div style="display: grid; justify-content: center">
+            <h3>Category Cable</h3>
         </div>
-        <img src="C:\Users\ADMIN-SURV\Desktop\training_guide\Images\toner.jpg" alt="Toner and Probe">
-    </div> -->
+        <div>
+            Category Cable (Cat) comes in different ways. What we use now mainly is Cat5e cable. but there are some
+            areas where you will come across cat 3 and cat 4 but usually we will run cat5 wire in their place.
+            Cat3 Cable only has a data rate of 10 mbps, it is inefficient on modern networks.
+            cat5 cable has a data rate up to 100 mbps and candistribute data, video and telephone signals at distances
+            up to 100 meters .
+
+            cat5e is not an official designation but it is the cable we most often run and work with within our IP
+            camera network.
+            it's data rate goes up to 1gbps.
+        </div>
+            <div class="row" style="justify-content: ;">
+                <div class="col" style="display: flex; justify-content: center;align-self: center;">
+                    <img src="../Images/cat5black.jpg " alt="Black Cat">
+                </div>
+                <div class="col">
+                    at the end of Category cables you will find (mostly) RJ45's. The 8 position 8 contact twisted pair
+                    jack
+                    is the most common and standardized way to connect
+                    telecommunincation and data equipment.
+                    These will be used when connecting any equipment of ours to our IP network. Our Avigilon digital IP
+                    cameras and patch cables are where you will use this most.
+
+                    -Color patterns
+                    rj45s have specific patterns of wiring called pinouts. such as T-568A and T-568B, and the crossover
+                    pinout.
+                    The standard we use is T-568B. Each end of the cable must have a matching pinout to ensure proper
+                    distribution of data. If they are not the same, the cable will not work
+
+                </div>
+                <div class="col" style="display: flex; justify-content: center;align-self: center;">
+                    <img src="../Images/cat5vcat5e.png" alt="Cat5 and Cat5E">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    The process for terminating a Cat cable is simple and tedious, but can often be done wrong. First you must strip the shielding of the cable to expose the 4 pairs of wire.
+                    untwist each pair and straighten them to the best of your ability.
+                    manipulate the wire to be in the pattern of your choice (t568b) and ensure they are flat and.
+                    you will slide the rj45 over the wires while the pins of the jack are facing you. 
+                    Ensure the pattern is correct within the jack and use the crimper to secure the termination.
+                    once each side is terminated you can test it with the LinkMaster Wiremapper and Tester
+                </div>
+                <div class="col">
+                    <img id="comparison" src="../Images/t568b.jpg" alt="T-568B">
+                </div>
+                <div class="col">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    
+
+
 </body>
 
 </html>
