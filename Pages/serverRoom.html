@@ -1,24 +1,240 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow”
-        integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
-        <link rel="stylesheet" href="C:\Users\ADMIN-SURV\Desktop\training_guide\styles.css">
-    </head>
-    <body>
-        <nav style="display: grid;
-        justify-content: center">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\ADMIN-SURV\Desktop\training_guide\styles.css">
+    <style>
+        img {
+            height: 300px;
+            width: 300px;
+            position: relative
+        }
+    </style>
+</head>
+
+<body>
+    <nav style="display: grid; justify-content: center">
         <ul>
             <li><a href="C:\Users\ADMIN-SURV\Desktop\training_guide\index.html" class="button">Home</button></li>
-            <li><a href="../Pages/gamingRegs.html">Gaming Regulations</a></li>
-            <li><a href="../Pages/operations.html">Operations</a></li>
+            <!-- <li><a href="../Pages/gamingRegs.html">Gaming Regulations</a></li> -->
+            <!-- <li><a href="../Pages/operations.html">Operations</a></li> -->
             <li><a href="../Pages/equipment.html">Our Equipment</a></li>
-            <li><a href="../Pages/wireTracing.html">Wire Tracing 101</a></li>
+            <li><a href="../Pages/wireTracing.html">Cables and Wires</a></li>
             <li><a href="References">References</a></li>
         </ul>
     </nav>
-        <div class="title">Server Room</h1>
+
+    <h2>Server Room</h2>
+
+    <div class="container" style="display: grid;grid-auto-flow: column;">
+        <div class="row" style="display: grid; justify-content: space-evenly;">
+            <div class="col" style="max-height: 300px">
+                <img style="padding:1em" src="../Images/left_isle.jpg" alt="Left Aisle">
+                on the left side of rthe first aisle you will find a wall filled with punch-down blocks and wire. These
+                wires coming in and being punched down include every camera on property.
+                the cables are the image wires that are connected within the camera. Once terminated at the wall they
+                are then ran to their respective receiver. I like to refer to it as a gargantuous splice connecting
+                our cameras to our servers..on the left side of rthe first aisle you will find a wall filled with
+                punch-down blocks and wire. These wires coming in and being punched down include every camera on
+                property.
+                the cables are the image wires that are connected within the camera. Once terminated at the wall they
+                are then ran to their respective receiver. I like to refer to it as a gargantuous splice connecting
+                our cameras to our servers
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="display: grid;grid-auto-flow: column;">
+        <div class="col">
+            <img style="padding:1em" src="../Images/middle_isle.jpg" alt="Middle Aisle">
+            Middle Aisle
+            left-side:on the left side, it is obvious we are looking at the back of the receivers. You'll notice BNC
+            ports with coax cable shooting over to the encoders, that is the path for the image to the network
+            It is quite unorganized so while working in this area it is imperative to pay close attention to what
+            you are doing. it is very easy to mistakenly unplug or disconnect something. When running a new analog
+            image to an
+            encoder you first must find an empty spot on a receiver. Some ports may have wires going into them but
+            nothing plugged into the BNC port. This is an empty channel and can be used by replacing the two wires
+            with
+            the ones from your camera, then over to an encoder.
+
+            right-side: On the right side you'll notice it is also an unorganized mess. There you will mostly find
+            coax cables running into the encoders. You'll also see short, yellow cables that are called patch cables
+            which
+            are used to connect the encoder to the switch. On the back of the encoders are also audio ports. not
+            many are being used but the ones that are always need to be properly connected. they are crucial to the
+            operation
+            of security and surveillance within the casino.
+        </div>
+    </div>
+
+    <!-- <div class="col"><img class="col" style="padding:1em" src="../Images/right_front_enc.jpg"
+                    alt="Front Encoders"></div> -->
+    </div>
+    </div>
+
+
+
+    <div class="container" style="display: grid;grid-auto-flow: column;">
+        <div class=" row" style="display:grid; justify-content: space-evenly;">
+            <div class="col">
+                <img class=" col" src="../Images/left_front_rec.jpg" alt="Left Front Rec">
+                This is far end of the first row. What you see are the front of receivers and also old Video Patch
+                Panels
+                that are no longer in use because they have been phased out.
+            </div>
+            <div class="col">
+                <img class="col" src="../Images/rec_power.jpg" alt="Front Receivers">
+                This is the middle of the first row where you are looking at more receivers and power supplies for our
+                analog cameras.
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="display: grid;">
+
+        <div class="row" style="display:grid; justify-content: space-between;grid-auto-flow: column;">
+            <div class="col">
+                <img src="../Images/mid_left_all.jpg" alt="Middle Left">
+                This is the left side of the middle row of the racks. You can see a large number of cables running from
+                one side
+                of the row to the other. These are the coax cables going from receiver to encoder,mostly.
+            </div>
+        </div>
+
+        <div class="row" style="display: grid; justify-content: space-between;grid-auto-flow: column;">
+            <div class="col">
+                <img src="../Images/mid_left_end_rec.jpg" alt="Middle Left End Receivers">
+                Here we are looking at the left side of the middle row, at the far end. A cluttered mess but you can see
+                the cables
+                running to and from the receivers. The large white cable holds about 32 pairs of UTP wiring, shortening
+                the number of
+                cables needed to be ran.
+            </div>
+        </div>
+
+        <div class="row" style="display: grid; justify-content: space-between;grid-auto-flow: column;">
+            <div class="col">
+                <img src="../Images/mid_frt_back_enc.jpg" alt="Middle Front Behind Encoders">
+                This picture is the middle of the ricks on the right side nearest the desk. You can see more clearly
+                the encoders and some of the servers.
+            </div>
+        </div>
+
+
+
+
+        <div class="row" style="display:grid; justify-content: space-evenly;grid-auto-flow: column;">
+            <!-- <div class="col">
+                <img src="../Images/mid_frt_left_rec.jpg" alt="Mid Front Left Receivers">
+            </div> -->
+            <div class="col">
+                <img src="../Images/mess_receiver.jpg" alt="Receiver Mess">
+                This is simply another picture of an unorganized section receivers. Slowly but surely we are working on
+                fixing the Mess
+                so that we can access what we need easier, but also to increase the airflow through the racks.
+            </div>
+            <div class="col">
+                <img src="../Images/serv_encoders.jpg" alt="Behind Encoders">
+                Here we are looking at the far end of the right side of the middle row of racks. You can see all the
+                coax
+                cables running into
+                their respective encoders where the analog images will be converted into data and sent over the network
+                to
+                the server. May be hard to see,
+                but the encoders have 4 ports and 4 lights to go with them. If there is a cable running into the encoder
+                but
+                no light is on, that means There
+                is an issue with the circuit for that camera. Whether it be at the camera, a splice, a punch block,
+                receiver
+                or the cable itself.
+            </div>
+
+        </div>
+
+
+        <div class="row" style="display: grid;justify-content: space-evenly; grid-auto-flow: column;">
+            <div class="col">
+                <img class="col" style="padding:1em" src="../Images/right_front_enc.jpg" alt="Front Encoders">
+                Right Aisle
+                The right aisle is the front of the encoders. Along with them, are switches and servers. You'll notice
+                that each encoder has a number on it like this - “xx.xxx”. This represents the last two octets of an IP
+                address that
+                have been assigned to it. These are specific to which switch they are connected two with the patch
+                cables. Each encoder has it's own IP Address that has 4 channels on it, the encoder.
+            </div>
+            <div class="col">
+                <img src="../Images/left_frt_mid_rec.jpg" alt="Left Mid Receivers">
+                In this image on the right and left side you can see some receivers of different types, all doing the
+                same
+                job.
+                You can also see in the middle an old patch panel no longer in use and above that is the system
+                responsible
+                for
+                the AI Phones within the observation room.
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    <!-- <div class="container">
         
-    </body>
+        <div style="display: grid;">
+            <div style="grid-auto-flow: column;justify-content: space-between;" class="row">
+                <div class="col rmImg">
+                    Left Aisle
+                    <img style="height:fit-content; width: 300px; padding:1em" src="../Images/left_isle.jpg"
+                        alt="Left Aisle"></div>
+                <div class="col rmImg"><img style="height:fit-content; width: 300px; padding:1em"
+                        src="../Images/middle_isle.jpg" alt="Middle Aisle"></div>
+                <div class="col rmImg"><img class="col" style="height:fit-content; width: 300px; padding:1em"
+                        src="../Images/right_front_enc.jpg" alt="Front Encoders"></div>
+            </div>
+            <div style="grid-auto-flow: column;justify-content:space-evenly;padding:10em" class="row">
+                <img class="col"  src="../Images/left_front_rec.jpg"
+                    alt="Left Front Rec">
+                <img class="col"  src="../Images/rec_power.jpg" alt="Front Receivers">
+            </div>
+
+            <div style="grid-auto-flow: column;justify-content: space-between;" class="row">
+                <img class="col"  src="../Images/mid_left_all.jpg" alt="Middle Left">
+
+                <img class="col"  src="../Images/mid_left_end_rec.jpg"
+                    alt="Middle Left End Receivers">
+
+                <img class="col"  src="../Images/mid_frt_back_enc.jpg"
+                    alt="Middle Front Behind Encoders">
+
+                <img class="col"  src="../Images/mid_frt_left_rec.jpg"
+                    alt="Mid Front Left Receivers">
+
+                <img class="col"  src="../Images/mess_receiver.jpg"
+                    alt="Receiver Mess">
+                    
+                <img class="col"  src="../Images/serv_encoders.jpg"
+                    alt="Behind Encoders">
+                <img class="col"  src="../Images/left_frt_mid_rec.jpg"
+                    alt="Left Mid Receivers">
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+</body>
+
 </html>

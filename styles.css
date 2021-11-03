@@ -1,11 +1,8 @@
 body {
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     display: grid;
-    padding-bottom: 5%;
-    grid-template-columns: 25%, 25%, 25%, 25%;
-    
-    
+    padding-bottom: 5%;    
 }
 
 /* .col{
@@ -14,7 +11,9 @@ body {
 .container{
     display: grid;
     background-color: lightgray;
-    padding:3em
+    padding:3em;
+    min-height: 100%;
+    
 }
 
 .myborder{
@@ -31,10 +30,12 @@ img{
     height:fit-content;
     border:none;
     position: relative;
+    padding: 1em;
 }
 
 div {
     display: grid;
+    grid-auto-flow: inherit;
 }
 
 #roundImage{
@@ -43,9 +44,9 @@ div {
 
 li {
     display: inline;
-    border-style: solid;
+    /* border-style: solid;
     border-width: thin;
-    border-radius: 15px;
+    border-radius: 15px; */
     padding: 5px;
     margin:10px;
   }
@@ -87,5 +88,10 @@ h1{
 
 #noAtts{
     box-shadow: none;
+}
+
+.rmImg{
+    padding:2 em;
+    border-radius: 15%;
 }
 
