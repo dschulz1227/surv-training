@@ -16,12 +16,6 @@
     <link rel="stylesheet" href="C:\Users\ADMIN-SURV\Desktop\training_guide\styles.css">
 
     <style>
-        /* img {
-            width: 250px;
-            height: 250px;
-            position: relative;
-        }; */
-
         #comparison {
             width: 500px;
             height: auto;
@@ -106,10 +100,8 @@
                 <img src="../Images/cat5black.jpg " alt="Black Cat">
             </div>
             <div class="col">
-                <b>At the end of Category cables</b> you will find (mostly) RJ45's. The 8 position 8 contact twisted
-                pair
-                jack
-                is the most common and standardized way to connect
+                At the end of Category cables you will find (mostly) RJ45's. The 8 position 8 contact twisted
+                pair jack is the most common and standardized way to connect
                 telecommunincation and data equipment.
                 These will be used when connecting any equipment of ours to our IP network. Our Avigilon digital IP
                 cameras and patch cables are where you will use this most.
@@ -143,8 +135,55 @@
 
             </div>
         </div>
+        <div style="padding-top:3em" class="row">
+            <h6>Testing Cat Cable</h6>
+            Testing a Cat cable is done using a tool we have called "LinkMaster Wiremapper and Tester"
+            Each end of the cable is plugged into either of the boxes of the wiremapper. It's usually most convenient to
+            connect the first
+            end to the box without a button, and take the controller (button) with you to the location of the opposite
+            end of the cable.
+            Once it's plugged in and the button is pressed a signal is sent to the other end and back again. This will
+            tell you if the cable
+            is properly terminated.
+        </div>
+        <div style="padding-top:3em" class="row">
+            <div class="col">
+                If the cable terminations are proper and the patterns match, this is the result you will get
+                <img src="../Images/goodtest.jpg" alt="positive test">
+            </div>
+            <div class="col">
+                If the patterns are not matching, you will get a result similar to this</br>
+                Notice the Red light on the bottom that indicatess a "Miswire"
+                <img src="../Images/badtest.jpg" alt="bad test">
+            </div>
+        </div>
+
     </div>
+
+    <div class="container">
+        <div style="justify-self: center;">
+            <h3>Tracing Cat Cable</h3>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img style="height:500px;width: auto;" src="../Images/toner.jpg" alt="toner">
+            </div>
+            <div class="col">
+                A Toner and Probe is used to trace pairs of wire within a Cat cable.
+                Simply, each clamp is clipped to either of the wires in a pair.
+                Then to turn on the Toner you press the button on the left with the words "Off, Solid, Alt"
+                These indicate the three settings of a toner.
+                Off obviously means that the toner is not powered on.
+                Solid means that the toner will send an electric signal through the line which is audible
+                when the probe is near it, in a constant tone.
+                Alt means the toner will sound off in different patterns of tones, making it easier to trace and
+                identify
+                different pairs of wires.
+            </div>
+        </div>
     </div>
+
 
 
 
