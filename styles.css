@@ -60,10 +60,8 @@ nav {
     font-size:larger;
     text-align: center;
     font-weight: bolder;
-    display: grid;
-    align-content: center;
+    align-self: center;
     justify-content: center;
-    padding-top: 8%;
     text-decoration:underline
 }
 
