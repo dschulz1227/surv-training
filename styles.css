@@ -95,3 +95,8 @@ h1{
     border-radius: 15%;
 }
 
+#longImage{
+    height:650px;
+    width:auto;
+    padding-left: 50%;
+}
