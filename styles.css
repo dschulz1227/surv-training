@@ -5,15 +5,11 @@ body {
     padding-bottom: 5%;    
 }
 
-/* .col{
-    border: grey 1px solid;
-} */
 .container{
     display: grid;
     background-color: lightgray;
+    background-size: cover;
     padding:3em;
-    min-height: 100%;
-    
 }
 
 .myborder{
@@ -31,7 +27,12 @@ img{
     border:none;
     position: relative;
     padding: 1em;
+    transition:transform 0.25s ease;
 }
+
+/* img:hover{
+    
+} */
 
 div {
     display: grid;
@@ -97,4 +98,22 @@ h1{
     height:650px;
     width:auto;
     padding-left: 50%;
+}
+
+.appearanceImg{
+    height:auto;
+    width:400px;
+    position: relative;
+}
+
+
+/* Trying to figure out hover overlay */
+
+/* img {
+    transition:transform 0.25s ease;
+} */
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
 }

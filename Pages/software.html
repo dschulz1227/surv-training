@@ -13,7 +13,7 @@
 
 </head>
 
-<>
+<body>
 
     <nav style="display: grid;
         justify-content: center">
@@ -23,7 +23,7 @@
             <li><a href="../Pages/equipment.html">Our Equipment</a></li>
             <li><a href="../Pages/wireTracing.html">Cables and Wires</a></li>
             <li><a href="../Pages/analytics.html">Analytics</a></li>
-            <li><a href="References">References</a></li>
+            <li><a href="../References/">References</a></li>
         </ul>
     </nav>
 
@@ -32,6 +32,7 @@
     </div>
 
     <div class="container">
+
         <div>
             The software we use in the Observation and Server room are crucial to the flow of the casino. It is
             imperative
@@ -105,7 +106,7 @@
                 <h2 style="padding-bottom: 2em;">Recorded Video</h2>
             </div>
 
-            <div style="display:" class="row">
+            <div class="row">
 
                 <div class="col">
                     <img id="longImage" src="../Images/sidebar.jpg">
@@ -144,29 +145,35 @@
                 4. Click Date Range to set the date and time of your search.</br>
                 5. Choose Cameras you want to include in the search. By default, all cameras
                 enabled with the Avigilon Appearance Search feature are selected.</br>
-                6. Click Search.</br></br>
-            </div>
-            <div>
+                6. Click Search.</br>
                 The sequence is the same for vehicle searching.</br>
             </div>
 
-            <div>
-                after you click “search”, a number of thumbnails will populate on the screen with what they think best
-                matches your description of the indivdual or vehicle.</br>
-                you'll notice the bottom timeline has turned into a graph of the search results, per time. The higher
-                the
-                bar, the closer of a match it is.(should be)</br>
-                when you move your cursor over any thumbnail, two options appear. A maginifying glass and star
-                magnifying glass represents “zooming” in on the thumbnail directly where the expected match is
-                found</br>
-                clicking the star will tell the system that “this is what i am looking for” and will further refine the
-                search results to match the starred thumbnail</br>
-                on the timeline below, a “star” icon will reveal where the starred image appears within the range of
-                time
-                you are searching between and will also show you the confidence level</br>
-                with a thumbnail, if you expand it, you can see a Bounding Box around the person or vehicle you have
-                searched for. </br>
-                Youi can click on the subject within, and more options will appear as shown:</br>
+            <div style="padding-top: 3em;">
+                Below, you can see the different steps of making an Appearance Search.
+                The first image shows the screen that first appears when you click "Appearance Search"
+                which displays the choices for an object to search for and the three basic traits to choose.
+                The following image shows the clothing options to select from, including top half (shirt) and bottom
+                half(pants).
+                After that, you have to select a timeframe for which you are searching for the object of interest.
+                The last image shows that you must select which cameras you want to use for the search. It is displayed
+                in the same format as the site tree, making it simple to find which cameras you are looking for.
+                It is preset on all cameras that have analytic capabbilities.
+            </div>
+
+            <div style="justify-content: space-around;" class="row">
+                <div class="col">
+                    <img class="appearanceImg" src="../Images/appearance1.jpg" alt="Appearance 1">
+                </div>
+                <div class="col">
+                    <img class="appearanceImg" src="../Images/appearance2.jpg" alt="Appearance 2">
+                </div>
+                <div class="col">
+                    <img class="appearanceImg" src="../Images/appearance3.jpg" alt="Appearance 3">
+                </div>
+                <div class="col">
+                    <img class="appearanceImg" src="../Images/appearance4.jpg" alt="Appearance 4">
+                </div>
             </div>
 
             <div>
@@ -197,51 +204,66 @@
 
             </div>
 
-            <div class="subtitle">Motion Search</div>
-            <div>
-                -Motion search is similar to the other search types</br>
-                -You choose specific cameras and times of where you are looking for motion</br>
-                -you can choose “Classified Object Motion” or “Pixel Motion”</br>
-                -you can choose how long an object needs to be in a frame before considering it a search result</br>
-                -Pixel Search will highlight (if applied) any pixels that show movement within a designated area</br>
+
+            <div class="row">
+
+                <div class="col">
+                    <h4 class="subtitle">Motion Search</h4>
+
+                    -Motion search is similar to the other search types</br>
+                    -You choose specific cameras and times of where you are looking for motion</br>
+                    -you can choose “Classified Object Motion” or “Pixel Motion”</br>
+                    -you can choose how long an object needs to be in a frame before considering it a search result</br>
+                    -Pixel Search will highlight (if applied) any pixels that show movement within a designated
+                    area</br>
+                </div>
+
+                <div class="col">
+                    <h4 class="subtitle">Thumbnail Search</h4>
+
+                    -Thumbnail search allows you to choose specific cameras, select a time and date range and the
+                    system</br>
+                    will display thumbnails of images at specific times. </br>
+                    -Comes in use especially when looking for changes in a shot, when an item was dropped, left or
+                    placed,
+                    etc..</br>
+                    -When you find a thumbnail you are looking for you can choose to ‘step in’ to it, and will show you
+                    more</br>
+                    thumbnails at a more defined time. This makes it easy to narrow down to when an event occured.</br>
+                </div>
             </div>
 
-            <div class="subtitle">Thumbnail Search</div>
-            <div>
-                -Thumbnail search allows you to choose specific cameras, select a time and date range and the
-                system</br>
-                will display thumbnails of images at specific times. </br>
-                -Comes in use especially when looking for changes in a shot, when an item was dropped, left or placed,
-                etc..</br>
-                -When you find a thumbnail you are looking for you can choose to ‘step in’ to it, and will show you
-                more</br>
-                thumbnails at a more defined time. This makes it easy to narrow down to when an event occured.</br>
-            </div>
+            <div class="row">
+                <div class="col">
+                    <h4 class="subtitle">Alarm Search</h4>
 
-            <div class="subtitle">Alarm Search</div>
-            <div>
-                -Searching Alarms gives you the ability to find when an alarm event occured. You choose which alarms you
-                want to search through, and choose a period of time to search through.</br>
-                If there are any results, they will populate above the rimeline.</br>
-                -You can see specifically what the incident was.</br>
-                -It shows you the image from the camera that is linked to the alarm</br>
-                -You can see specific details about the time and which alarm it is.</br>
-                -You can choose a number of actions to use when you find the event you are searching for as shown
-                below
-            </div>
+                    -Searching Alarms gives you the ability to find when an alarm event occured. You choose which alarms
+                    you
+                    want to search through, and choose a period of time to search through.</br>
+                    If there are any results, they will populate above the rimeline.</br>
+                    -You can see specifically what the incident was.</br>
+                    -It shows you the image from the camera that is linked to the alarm</br>
+                    -You can see specific details about the time and which alarm it is.</br>
+                    -You can choose a number of actions to use when you find the event you are searching for as shown
+                    below
+                    <div>
+                        <img src="../Images/alarmsearch.png" alt="Alarm Search">
+                    </div>
+                </div>
 
-            <div>
-                <img src="../Images/alarmsearch.png" alt="Alarm Search">
-            </div>
 
-            <div class="subtitle">Bookmark Search</div>
-            <div>
-                -Allows you to search through a time period to look for any bookmarks that may have been created.</br>
-                -Bookmarks are generally used to save a key image, or a time of an image</br>
+                <div style="display: flow-root" class="col">
+                    <h4 class="subtitle">Bookmark Search</h4>
+                    -Allows you to search through a time period to look for any bookmarks that may have been
+                    created.</br>
+                    -Bookmarks are generally used to save a key image, or a time of an image</br>
+                </div>
             </div>
+        </div>
 
-            <div class="subtitle">Exporting Footage</div>
-        </div></div>
+        <div class="subtitle">Exporting Footage</div>
+    </div>
+
 </body>
 
 </html>
