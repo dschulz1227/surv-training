@@ -1,14 +1,19 @@
 body {
     height: 100%;
-    /* width: 100%; */
     display: grid;
-    padding-bottom: 5%;    
+    padding-bottom: 5%;
+    background-color:dimgrey;    
+}
+
+a{
+    color: firebrick;
 }
 
 .container{
     display: grid;
     background-color: lightgrey;
     background-size: cover;
+    min-width: 90%
     /* grid-row-gap: 2em; */
     /* padding:3em;
     grid-auto-rows: 1fr;
@@ -16,15 +21,10 @@ body {
      */
 };
 
-/* .row {
-    display: grid;
-    padding:3em;
-    grid-auto-rows: 1fr;
-    background-color: lightgray;
-    background-size: cover; 
-    width: fit-content;
+.row {
+    padding-right: calc(var(--bs-gutter-x) * 3);
+  }
 
-} */
 
 .myborder{
     border: lightgray 1px solid;
@@ -44,9 +44,6 @@ img{
     transition:transform 0.25s ease;
 }
 
-/* img:hover{
-    
-} */
 
 div {
     display: grid;
@@ -54,14 +51,11 @@ div {
 }
 
 #roundImage{
-    border-radius: 20%;
+    border-radius: 15%;
 }
 
-li {
+.navDisplay {
     display: inline;
-    /* border-style: solid;
-    border-width: thin;
-    border-radius: 15px; */
     padding: 5px;
     margin:10px;
   }
@@ -69,7 +63,6 @@ li {
 nav {
     padding-top: 10%
 }
-/* change subtitle to h2 */
 
 .subtitle{
     font-size:larger;
@@ -84,7 +77,6 @@ h2{
     display: grid;
     justify-content: center;
     font-size: xx-large;
-    /* padding-bottom: 1em; */
 }
 
 
@@ -95,8 +87,6 @@ h1{
     display: grid;
     align-content: center;
     justify-content: center;
-    /* padding-top: 5%;
-    padding-bottom: 3%; */
 }
 
 #noAtts{
@@ -121,11 +111,6 @@ h1{
 }
 
 
-/* Trying to figure out hover overlay */
-
-/* img {
-    transition:transform 0.25s ease;
-} */
 
 img:hover {
     -webkit-transform:scale(1.1); /* or some other value */

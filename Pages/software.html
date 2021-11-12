@@ -1,4 +1,6 @@
-<html>
+<!doctype html>
+
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -6,11 +8,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="C:\Users\ADMIN-SURV\Desktop\training_guide\styles.css">
-
-    <style>
-
-    </style>
-
 </head>
 
 <body>
@@ -18,12 +15,12 @@
     <nav style="display: grid;
         justify-content: center">
         <ul>
-            <li><a href="../index.html" class="button">Home</a></li>
-            <li><a href="../Pages/serverRoom.html">Server Room</a></li>
-            <li><a href="../Pages/equipment.html">Our Equipment</a></li>
-            <li><a href="../Pages/wires.html">Cables and Wires</a></li>
-            <li><a href="../Pages/analytics.html">Analytics</a></li>
-            <li><a href="../Pages/references.html">References</a></li>
+            <li class="navDisplay"><a href="../index.html" class="button">Home</a></li>
+            <li class="navDisplay"><a href="../Pages/serverRoom.html">Server Room</a></li>
+            <li class="navDisplay"><a href="../Pages/equipment.html">Our Equipment</a></li>
+            <li class="navDisplay"><a href="../Pages/wires.html">Cables and Wires</a></li>
+            <li class="navDisplay"><a href="../Pages/analytics.html">Analytics</a></li>
+            <li class="navDisplay"><a href="../Pages/references.html">References</a></li>
         </ul>
     </nav>
 
@@ -33,7 +30,7 @@
 
     <div class="container">
 
-        <div>
+        <div style="justify-self: center; padding-top:2em" class="row">
             The software we use in the Observation and Server room are crucial to the flow of the casino. It is
             imperative
             to learn these</br>
@@ -43,50 +40,64 @@
             to be confident that nothing will fail overnight.
         </div>
 
-        <h2>
+        <h2 style="padding-top: 2em;">
             Avigilon Control Center Client
         </h2>
 
-        <div style="display: grid; justify-content:center;">
-            <div>
-                -Found on most computers in observation room
-                -access simply by choosing the site (IslandView) that auto-populates in the corner, and log in with
-                basic
-                Operator credentials</br>
-                -On the dropdown to the left, all the devices will populate. By dragging them to the main screen, or
-                double-clicking, you can view the live image from that camera.</br>
-                -In the top left next to “live” will be a button for “recorded”, where you will be able to search
-                through
-                the devices memory of video.</br>
-                -Next to the that is a button where you can select how many screens you want open for camera viewing,
-                and
-                the format of how they lay.</br>
-                -Full screen</br>
-                -Cycle View →</br>
-                -Save View → captures the current screens in the view and saves them as a preset</br>
-                -Collaborate → share views with another individual on a separate client</br>
-                -In the top left corner of the image below, the three bars indicate the “New Task Menu”
-                which includes: alarms, searching, exporting, and management of the site</br>
-            </div>
+        <div style="display: grid;">
+            <ul>
+                <li>Found on most computers in observation room</li>
+                <li>Access simply by choosing the site (IslandView) that auto-populates in the corner, and log in with
+                    basic
+                    Operator credentials</li>
+                <li>On the dropdown to the left, all the devices will populate. By dragging them to the viewing window,
+                    or
+                    double-clicking, you can view the live image from that device.</li>
+                <li>In the top left next to “live” will be a button for “recorded”, where you will be able to search
+                    through the devices memory of video</li>
+                <li> Next to the that is a button that allows you to select how many screens you want open for
+                    viewing, and their format.</li>
+                <li>Full screen is self-explanatory</li>
+                <li>Cycle View → This allows you to cycle through all the tabs (if you have more than one open) by
+                    displaying each tab a
+                    few seconds at a time.
+                </li>
+                <li>Save View → captures the current screens in the view and saves them as a preset</li>
+                <li>Collaborate → share views with another individual on a separate client</li>
+                <div style="align-items: center; justify-items: center;" class="row">
+                    <li class="col">In the top left corner of the image to the right, the three bars indicate the “New
+                        Task Menu”
+                        which includes: alarms, searching, exporting, and management of the site</li>
+                    <img style="max-width:350px" class="col" src="../Images/taskbar.png" alt="task bar">
+                </div>
+            </ul>
 
-            <div>
+            <!-- <div>
                 <img src="../Images/taskbar.png" alt="task bar"></br></br>
                 -In the top right above the image windows, there is a tool bar, as shown below.
+            </div> -->
+
+            <div class="row" style="align-items: center; justify-self: center;">
+                <img style="max-width: 350px;" src="../Images/cursorbar.png" alt="Cursor">
+            </div>
+            <div class="row" style="align-items: center; justify-self: center; padding-bottom: 1em;">
+                In the top right of
+                each viewing window,
+                you will see these icons
             </div>
 
-            <div>
-                <img src="../Images/cursorbar.png" alt="Cursor"></br></br>
-            </div>
-
-            <div>
-                -the arrow represents a point/click cursor</br>
-                -zoom in and out with your cursor</br>
-                -the hand is for dragging your view of the images to focus on different things</br>
-                -the 4th icon represents PTZ controls</br>
-                -if a camera has ptz capabbility, you can use this button to bring up the PTZ controller</br>
-                -clicking on the screen and dragging the cursor in the middle will move the PTZ, you can also zoom in
-                and out, even with the scroller on your mouse</br></br>
-            </div>
+            <dl>
+                <dt>The arrow</dt>
+                    <dd>Represents a point/click cursor</dd>
+                <dt>Magnifying Glasses (+/-)</dt>
+                    <dd>Represent zooming in and out of the image</dd>
+                <dt>The Hand</dt> 
+                    <dd>Is for dragging the image to where you want to focus</d>
+                <dt>The 4th icon represents PTZ controls</dt>
+                    <dd>If a camera has PTZ capability, you can use this button to bring up the PTZ controller
+                Clicking on the screen and dragging the cursor in the middle will move the PTZ, you can also zoom in
+                    and out, even with the scroller on your mouse</dd>
+            </dl>
 
             <div>
                 -when view video, you can double-click the screen to activate full screen.
@@ -161,108 +172,122 @@
                 It is preset on all cameras that have analytic capabbilities.
             </div>
 
-            <div style="justify-content: space-around;" class="row">
-                <div class="col">
+            <div style="justify-content: space-around;" class="row col-12">
+                <div class="col-md-4">
                     <img class="appearanceImg" src="../Images/appearance1.jpg" alt="Appearance 1">
                 </div>
-                <div class="col">
+                <div class="col-md-4">
                     <img class="appearanceImg" src="../Images/appearance2.jpg" alt="Appearance 2">
                 </div>
-                <div class="col">
+                <div class="col-md-4">
                     <img class="appearanceImg" src="../Images/appearance3.jpg" alt="Appearance 3">
                 </div>
-                <div class="col">
+            </div>
+            <div style="justify-content: space-around;" class="row col-12">
+                <div class="col-md-4">
                     <img class="appearanceImg" src="../Images/appearance4.jpg" alt="Appearance 4">
                 </div>
-            </div>
 
-            <div>
-                <img src="../Images/boundingoptions.png" alt="Bounding Options">
-                -this will refine and designate the system to only search within the parameter of your choice.
-            </div>
 
-            <div class="subtitle">Events Search</div>
-            <div class="row">
-
-                <div class="col">
-                    <img src="../Images/eventsearch.png" alt="Event Search">
+                <div>
+                    <img src="../Images/boundingoptions.png" alt="Bounding Options">
+                    -this will refine and designate the system to only search within the parameter of your choice.
                 </div>
 
-                <div class="col">
-                    Motion — Motion was detected in the target area.</br>
-                    Digital Input — A signal was sent from a device.</br>
-                    Classified Object — A person or vehicle was detected in the configured region of interest.</br>
-                    Tampering — An unexpected change in the scene was detected.</br>
-                    ONVIF — A third-party ONVIF device event was detected.</br>
-                    Presence or Presence Dwell — The Avigilon Presence Detector sensor detected an individual.</br>
-                    Unusual Motion — Unusual pixel motion was detected.</br>
-                    Unusual Activity — A classified object behaving unusually was detected.</br>
-                    Face Watch List Match — A watch list match was detected.</br>
-                    Person Without Mask — A person without a face mask was detected</br>
-                    -Search through specific date and time ranges for any of the above events</br></br>
+                <div class="subtitle">Events Search</div>
+                <div class="row">
+
+                    <div class="col">
+                        <img src="../Images/eventsearch.png" alt="Event Search">
+                    </div>
+
+                    <div class="col">
+                        Motion — Motion was detected in the target area.</br>
+                        Digital Input — A signal was sent from a device.</br>
+                        Classified Object — A person or vehicle was detected in the configured region of interest.</br>
+                        Tampering — An unexpected change in the scene was detected.</br>
+                        ONVIF — A third-party ONVIF device event was detected.</br>
+                        Presence or Presence Dwell — The Avigilon Presence Detector sensor detected an individual.</br>
+                        Unusual Motion — Unusual pixel motion was detected.</br>
+                        Unusual Activity — A classified object behaving unusually was detected.</br>
+                        Face Watch List Match — A watch list match was detected.</br>
+                        Person Without Mask — A person without a face mask was detected</br>
+                        -Search through specific date and time ranges for any of the above events</br></br>
+                    </div>
+
                 </div>
 
-            </div>
 
+                <div class="row">
 
-            <div class="row">
+                    <div class="col">
+                        <h4 class="subtitle">Motion Search</h4>
 
-                <div class="col">
-                    <h4 class="subtitle">Motion Search</h4>
+                        -Motion search is similar to the other search types</br>
+                        -You choose specific cameras and times of where you are looking for motion</br>
+                        -you can choose “Classified Object Motion” or “Pixel Motion”</br>
+                        -you can choose how long an object needs to be in a frame before considering it a search
+                        result</br>
+                        -Pixel Search will highlight (if applied) any pixels that show movement within a designated
+                        area</br>
+                    </div>
 
-                    -Motion search is similar to the other search types</br>
-                    -You choose specific cameras and times of where you are looking for motion</br>
-                    -you can choose “Classified Object Motion” or “Pixel Motion”</br>
-                    -you can choose how long an object needs to be in a frame before considering it a search result</br>
-                    -Pixel Search will highlight (if applied) any pixels that show movement within a designated
-                    area</br>
-                </div>
+                    <div class="col">
+                        <h4 class="subtitle">Thumbnail Search</h4>
 
-                <div class="col">
-                    <h4 class="subtitle">Thumbnail Search</h4>
-
-                    -Thumbnail search allows you to choose specific cameras, select a time and date range and the
-                    system</br>
-                    will display thumbnails of images at specific times. </br>
-                    -Comes in use especially when looking for changes in a shot, when an item was dropped, left or
-                    placed,
-                    etc..</br>
-                    -When you find a thumbnail you are looking for you can choose to ‘step in’ to it, and will show you
-                    more</br>
-                    thumbnails at a more defined time. This makes it easy to narrow down to when an event occured.</br>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <h4 class="subtitle">Alarm Search</h4>
-
-                    -Searching Alarms gives you the ability to find when an alarm event occured. You choose which alarms
-                    you
-                    want to search through, and choose a period of time to search through.</br>
-                    If there are any results, they will populate above the rimeline.</br>
-                    -You can see specifically what the incident was.</br>
-                    -It shows you the image from the camera that is linked to the alarm</br>
-                    -You can see specific details about the time and which alarm it is.</br>
-                    -You can choose a number of actions to use when you find the event you are searching for as shown
-                    below
-                    <div>
-                        <img src="../Images/alarmsearch.png" alt="Alarm Search">
+                        -Thumbnail search allows you to choose specific cameras, select a time and date range and the
+                        system</br>
+                        will display thumbnails of images at specific times. </br>
+                        -Comes in use especially when looking for changes in a shot, when an item was dropped, left or
+                        placed,
+                        etc..</br>
+                        -When you find a thumbnail you are looking for you can choose to ‘step in’ to it, and will show
+                        you
+                        more</br>
+                        thumbnails at a more defined time. This makes it easy to narrow down to when an event
+                        occured.</br>
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col">
+                        <h4 class="subtitle">Alarm Search</h4>
 
-                <div style="display: flow-root" class="col">
-                    <h4 class="subtitle">Bookmark Search</h4>
-                    -Allows you to search through a time period to look for any bookmarks that may have been
-                    created.</br>
-                    -Bookmarks are generally used to save a key image, or a time of an image</br>
+                        -Searching Alarms gives you the ability to find when an alarm event occured. You choose which
+                        alarms
+                        you
+                        want to search through, and choose a period of time to search through.</br>
+                        If there are any results, they will populate above the rimeline.</br>
+                        -You can see specifically what the incident was.</br>
+                        -It shows you the image from the camera that is linked to the alarm</br>
+                        -You can see specific details about the time and which alarm it is.</br>
+                        -You can choose a number of actions to use when you find the event you are searching for as
+                        shown
+                        below
+                        <div>
+                            <img src="../Images/alarmsearch.png" alt="Alarm Search">
+                        </div>
+                    </div>
+
+
+                    <div style="display: flow-root" class="col">
+                        <h4 class="subtitle">Bookmark Search</h4>
+                        -Allows you to search through a time period to look for any bookmarks that may have been
+                        created.</br>
+                        -Bookmarks are generally used to save a key image, or a time of an image</br>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="subtitle">Exporting Footage</div>
-    </div>
+            <div class="subtitle">Exporting Footage</div>
+            <div class="row">
+                Exporting footage is a very useful skill to know. Almost every kind of event has to be exported! From
+                slips and falls to money laundering, these
+                video clips must be downloaded and saved to a file. Once the event is fully exported it is able to be
+                shared anywhere, and the file is
+                exported with a version of Aviglon Player, giving others the capability to view the exported footage.
+            </div>
+        </div>
 
 </body>
 
