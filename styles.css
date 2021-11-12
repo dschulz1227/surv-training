@@ -2,7 +2,21 @@ body {
     height: 100%;
     display: grid;
     padding-bottom: 5%;
-    background-color:dimgrey;    
+    background:#6fbfd6;
+    background-image: url('Images/bird_background.jpg');
+    background-repeat:no-repeat;
+    background-position: 25% 50%  ;
+    background-size:cover;
+    image-rendering:crisp-edges;
+    z-index: 1;  
+    background-attachment: fixed
+
+    
+    ;
+}
+
+.list-group{
+    background:transparent;
 }
 
 a{
@@ -11,9 +25,11 @@ a{
 
 .container{
     display: grid;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     background-size: cover;
-    min-width: 90%
+    min-width: 90%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
     /* grid-row-gap: 2em; */
     /* padding:3em;
     grid-auto-rows: 1fr;
@@ -61,7 +77,7 @@ div {
   }
 
 nav {
-    padding-top: 10%
+    padding-top: 10%;
 }
 
 .subtitle{
@@ -79,6 +95,10 @@ h2{
     font-size: xx-large;
 }
 
+h3{
+    display: grid;
+    justify-content: center;
+}
 
 h1{
     font-size: xxx-large;
@@ -99,7 +119,7 @@ h1{
 }
 
 #longImage{
-    height:650px;
+    height:450px;
     width:auto;
     padding-left: 50%;
 }
