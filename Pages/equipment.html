@@ -18,21 +18,33 @@
 </head>
 
 <body>
-  <nav style="display: grid; justify-content: center;">
+  <!-- <nav style="display: grid; justify-content: center;">
     <ul>
-      <div class="navDisplay"><a href="../index.html">Home</a></div>
+      <div class="navDisplay"><a href="../index.html" class="button">Home</a></div>
       <div class="navDisplay"><a href="../Pages/software.html">Software</a></div>
       <div class="navDisplay"><a href="../Pages/serverRoom.html">Server Room</a></div>
       <div class="navDisplay"><a href="../Pages/wires.html">Cables and Wires</a></div>
       <div class="navDisplay"><a href="../Pages/analytics.html">Analytics</a></div>
       <div class="navDisplay"><a href="../Pages/references.html">References</a></div>
     </ul>
-  </nav>
+  </nav> -->
 
 
   <div class="container">
-    <h2>Equipment</h2>
-    <h3>Digital Cameras</h3>
+    <nav style="display: grid; justify-content: center;">
+      <ul>
+        <div class="navDisplay"><a href="../index.html" class="button">Home</a></div>
+        <div class="navDisplay"><a href="../Pages/software.html">Software</a></div>
+        <div class="navDisplay"><a href="../Pages/serverRoom.html">Server Room</a></div>
+        <div class="navDisplay"><a href="../Pages/wires.html">Cables and Wires</a></div>
+        <div class="navDisplay"><a href="../Pages/analytics.html">Analytics</a></div>
+        <div class="navDisplay"><a href="../Pages/references.html">References</a></div>
+      </ul>
+    </nav>
+
+    <div class="primaryTitle">Equipment</div>
+
+    <div class="secondaryTitle">Digital Cameras</div>
     <div style="display: grid; justify-content: center;padding-bottom: 2em; padding-top: .5em;">
       <div>
         <img class="img_img" id="noAtts"
@@ -60,15 +72,14 @@
 
     <div class="row" style="padding-bottom: 1em">
       <div class="col" style="justify-content: center;">
-        <b>What is a PTZ Camera?</b></br>
-
+        <div class="tertiaryTitle">What is a PTZ Camera?</div>
         -Pan, Tilt, Zoom</br>
         -Cameras able to pan left-right, tilt up-down, and zoom in and out</br>
         -Gernally used in wide open spaces or areas that require 180 or 360 degree coverage</br>
       </div>
 
       <div style="padding-bottom:20px; justify-content: center;" class="col">
-        <b>What is a fixed camera?</b></br>
+        <div class="tertiaryTitle">What is a fixed camera?</div>
         - Cameras that are unable to move.</br>
         - Generally in Bullet or Dome styles</br>
         - Often in used in areas that a fixed image is always required</br>
@@ -116,8 +127,8 @@
 
   <!-- ANALOG CAMERAS ----------------------------------------------- -->
   <div class="container">
-    <div>
-      <h2 style="padding-top: 5rem;">Analog Cameras</h2>
+    <div class="secondaryTitle">
+      Analog Cameras
     </div>
 
     <div style="padding-top: 5rem" class="row">
@@ -151,7 +162,7 @@
 
   <!-- Encoder ------------------------------------------------ -->
   <div class="container">
-    <h2 style="padding-top: 3rem; ">Encoders</h2>
+    <div class="secondaryTitle">Encoders</div>
     <div class="row">
       <div style="font-size: larger;align-items: flex-start; padding-left:15%;padding-top:3rem" class="col">
         Converts a standard analog video feed into a digital stream, enabling digital images to be sent over an IP
@@ -173,7 +184,7 @@
 
   <!-- Receivers--------------------------------------------------------- -->
   <div class="container">
-    <h2 style="padding-top: 5rem; padding-bottom:2rem">Receivers and NVT's</h2>
+    <div class="secondaryTitle" style="padding-top: 5rem; padding-bottom:2rem">Receivers and NVT's</div>
 
     <br>
     <div class="row">
@@ -206,11 +217,11 @@
 
   <!-- Servers-------------------------------------------- -->
   <div style="padding-top:6em" class="container">
-    <div>
-      <h2>Servers</h2>
+    <div class="secondaryTitle">
+      Servers
     </div>
     <div class="row">
-      <h4 style="display:grid; justify-content: center;">
+      <div class="tertiaryTitle">
         Avigilon Control Center Server
       </h4>
     </div>
@@ -240,7 +251,7 @@
     </div> -->
     <div class="row">
       <div style="justify-content: center;" class="col">
-        <h3><u>Avigilon NVR</u> </h3>
+        <div class="tertiaryTitle">Avigilon NVR </div>
         Network Video Recorder also known as a Server.
         An NVR is responsible for capturing, saving, and allowing the data to be played back on the Avigilon Control
         Center Client
@@ -257,7 +268,7 @@
         </a>
       </div>
       <div style="justify-content: center;" class="col">
-        <h3><u>Pelco NSM</u></h3>
+        <div class="tertiaryTitle">Pelco NSM</div>>
         The Pelco Network Storage Manager is a server just like the Avigilon NVR. It stores video and retains it until
         space is needed.
         The Pelco NSM offers up to 250M mb/s throughput, nearly 3 times less than our Avigilon NVR's.
