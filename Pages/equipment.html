@@ -9,26 +9,31 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="C:\Users\ADMIN-SURV\Desktop\training_guide\styles.css">
+  <!-- ----------Google fonts-------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;700&display=swap" rel="stylesheet">
+</head>
 </head>
 
 <body>
-  <nav style="display: grid;
-        justify-content: center">
+  <nav style="display: grid; justify-content: center;">
     <ul>
-      <li class="navDisplay"><a href="../index.html" class="button">Home</a></li>
-      <li class="navDisplay"><a href="../Pages/software.html">Software Introduction</a></li>
-      <li class="navDisplay"><a href="../Pages/serverRoom.html">Server Room</a></li>
-      <li class="navDisplay"><a href="../Pages/wires.html">Cables and Wires</a></li>
-      <li class="navDisplay"><a href="../Pages/analytics.html">Analytics</a></li>
-      <li class="navDisplay"><a href="../Pages/references.html">References</a></li>
+      <div class="navDisplay"><a href="../index.html">Home</a></div>
+      <div class="navDisplay"><a href="../Pages/software.html">Software</a></div>
+      <div class="navDisplay"><a href="../Pages/serverRoom.html">Server Room</a></div>
+      <div class="navDisplay"><a href="../Pages/wires.html">Cables and Wires</a></div>
+      <div class="navDisplay"><a href="../Pages/analytics.html">Analytics</a></div>
+      <div class="navDisplay"><a href="../Pages/references.html">References</a></div>
     </ul>
   </nav>
 
-  <h2>Equipment</h2>
-  <div class="container">
-    <h3 style="padding-top: 3em;">Digital Cameras</h3>
-    <div style="display: grid; justify-content: center;padding-bottom: 2em; padding-top: .5em;">
 
+  <div class="container">
+    <h2>Equipment</h2>
+    <h3>Digital Cameras</h3>
+    <div style="display: grid; justify-content: center;padding-bottom: 2em; padding-top: .5em;">
       <div>
         <img class="img_img" id="noAtts"
           style="display:grid ; justify-self: center; width:300px ; height:auto ; padding-bottom: 2em;"
@@ -54,7 +59,7 @@
     <!-- DIGITAL CAMERAS ----------------------------------------------- -->
 
     <div class="row" style="padding-bottom: 1em">
-      <div class="col">
+      <div class="col" style="justify-content: center;">
         <b>What is a PTZ Camera?</b></br>
 
         -Pan, Tilt, Zoom</br>
@@ -62,7 +67,7 @@
         -Gernally used in wide open spaces or areas that require 180 or 360 degree coverage</br>
       </div>
 
-      <div style="padding-bottom:20px" class="col">
+      <div style="padding-bottom:20px; justify-content: center;" class="col">
         <b>What is a fixed camera?</b></br>
         - Cameras that are unable to move.</br>
         - Generally in Bullet or Dome styles</br>
@@ -113,8 +118,6 @@
   <div class="container">
     <div>
       <h2 style="padding-top: 5rem;">Analog Cameras</h2>
-      <!-- <img id="noAtts" style="display:grid ; justify-self: center; width:300px ; height:auto ; padding-bottom: 2em;"
-        src="../Images/ganz.png" alt="ganz"> -->
     </div>
 
     <div style="padding-top: 5rem" class="row">
@@ -206,6 +209,32 @@
     <div>
       <h2>Servers</h2>
     </div>
+    <div class="row">
+      <h4 style="display:grid; justify-content: center;">
+        Avigilon Control Center Server
+      </h4>
+    </div>
+    <div class="row">
+      <p class="col">The <b>Avigilon Control Center Server </b> software is the application that captures and records
+        surveillance data from
+        network cameras and encoders. The captured data is then sent to the Avigilon Control Center Client software for
+        you to review.
+      </p>
+
+      <p class="col"> The<b> Avigilon Control Center Server</b> software contains two key parts — the Windows service
+        and the Admin
+        Tool. The
+        Windows service directs video to where it needs to be stored or streamed in the network. The Admin Tool is
+        allows
+        you to configure the system administrative settings.
+        There are three editions of the Server software available: Core, Standard and Enterprise. The edition of the
+        Server software determines how many cameras can be connected to the system and the number of simultaneous
+        client
+        connections. The edition of the Server software also determines what features are available in the Avigilon
+        Control Center Client software.
+      </p>
+
+    </div>
     <!-- <div class="row" style="height:300px; justify-content: center;padding-top:3em">
       <img style="height: fit-content; width:600px" src="../Images/avignvr.jpg" alt="avigilon server">
     </div> -->
@@ -215,16 +244,16 @@
         Network Video Recorder also known as a Server.
         An NVR is responsible for capturing, saving, and allowing the data to be played back on the Avigilon Control
         Center Client
-        It also holds the software that makes our digital camerass Analytic-capable. Giving the system and whatever
-        cameras that are connected
-        to that server capabilities for appearance search, facial recognition, license plate recognition and more. The
-        server gives our observers the
-        capability of monitoring live and recorded footage. The server captures and retains image data and retains it
-        until memory is needed, then the
-        oldest data will be kicked off. These servers also have RAID 5 or 6, which is just a fancy way of the harddrives
+        <!-- It also holds the software that makes our digital cameras Analytic-capable. Giving the system and whatever
+        cameras that are connected to that server capabilities for appearance search, facial recognition, license plate recognition and more. -->
+        The server gives our observers the capability of monitoring live and recorded footage. The server captures and
+        retains image data and retains it
+        until memory is needed, then the oldest data will be kicked off. These servers also have RAID 5 or 6, which is
+        just a fancy way of the harddrives
         each backing eachother up in case of failure.
         <a href="https://www.avigilon.com/products/video-infrastructure/nvr" target="_blank">
-          <img style="justify-self: center" src="../Images/avigserver.jpg" alt="Avig Room Server" title="Click for more informoation">
+          <img style="justify-self: center" src="../Images/avigserver.jpg" alt="Avig Room Server"
+            title="Click for more informoation">
         </a>
       </div>
       <div style="justify-content: center;" class="col">
@@ -232,9 +261,11 @@
         The Pelco Network Storage Manager is a server just like the Avigilon NVR. It stores video and retains it until
         space is needed.
         The Pelco NSM offers up to 250M mb/s throughput, nearly 3 times less than our Avigilon NVR's.
-        <a href="https://www.bhphotovideo.com/c/product/1118080-REG/pelco_nsm5200_48_us_nsm5200_network_storage_manager.html/overview" target="_blank">
-        <img style="justify-self: center" src="../Images/dellserver.jpg" alt="Pelco NSM" title="Click for more information">
-      </a>
+        <a href="https://www.bhphotovideo.com/c/product/1118080-REG/pelco_nsm5200_48_us_nsm5200_network_storage_manager.html/overview"
+          target="_blank">
+          <img style="justify-self: center" src="../Images/dellserver.jpg" alt="Pelco NSM"
+            title="Click for more information">
+        </a>
       </div>
     </div>
   </div>

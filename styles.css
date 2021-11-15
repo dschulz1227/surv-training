@@ -8,7 +8,7 @@ body {
     background-position: 25% 50%  ;
     background-size:cover;
     image-rendering:crisp-edges;
-    z-index: 1;  
+    z-index: 0;  
     background-attachment: fixed
 
     
@@ -20,21 +20,17 @@ body {
 }
 
 a{
-    color: firebrick;
+    color:aliceblue;
+    text-decoration: none;
 }
 
 .container{
     display: grid;
-    /* background-color: lightgrey; */
     background-size: cover;
     min-width: 90%;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-
-    /* grid-row-gap: 2em; */
-    /* padding:3em;
-    grid-auto-rows: 1fr;
-    grid-template-columns: repeat(4, 1fr);
-     */
+    padding-top: 5%
+    
 };
 
 .row {
@@ -74,10 +70,35 @@ div {
     display: inline;
     padding: 5px;
     margin:10px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+    font-size: 20px
+    
   }
 
 nav {
-    padding-top: 10%;
+    padding: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rosybrown;
+    height: fit-content;
+    width: fit-content;
+    justify-self: center;
+    overflow: hidden;
+    background-color: #70919c;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 2;
+
+  
+    
+   
+}
+
+ul{
+    margin: .5rem;
 }
 
 .subtitle{
@@ -130,7 +151,10 @@ h1{
     position: relative;
 }
 
-
+#noEffect:hover {
+    -webkit-transform:scale(1.005); /* or some other value */
+    transform:scale(1.005);
+}
 
 img:hover {
     -webkit-transform:scale(1.1); /* or some other value */
