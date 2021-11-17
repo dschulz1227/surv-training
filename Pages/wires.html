@@ -12,8 +12,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="C:\Users\ADMIN-SURV\Desktop\training_guide\styles.css">
 
     <style>
@@ -34,18 +33,6 @@
 </head>
 
 <body>
-    <!-- <nav style="display: grid;
-    justify-content: center">
-        <ul>
-            <li class="navDisplay"><a href="../index.html" class="button">Home</a></li>
-            <li class="navDisplay"><a href="../Pages/software.html">Software</a></li>
-            <li class="navDisplay"><a href="../Pages/serverRoom.html">Server Room</a></li>
-            <li class="navDisplay"><a href="../Pages/equipment.html">Our Equipment</a></li>
-            <li class="navDisplay"><a href="../Pages/analytics.html">Analytics</a></li>
-            <li class="navDisplay"><a href="../Pages/references.html">References</a></li>
-        </ul>
-    </nav> -->
-
 
     <div class="container">
         <nav style="display: grid;
@@ -56,6 +43,7 @@
                 <li class="navDisplay"><a href="../Pages/serverRoom.html">Server Room</a></li>
                 <li class="navDisplay"><a href="../Pages/equipment.html">Our Equipment</a></li>
                 <li class="navDisplay"><a href="../Pages/analytics.html">Analytics</a></li>
+                <li class="navDisplay"><a href="../Pages//tools.html">Tools</a> </li>
                 <li class="navDisplay"><a href="../Pages/references.html">References</a></li>
             </ul>
         </nav>
@@ -65,30 +53,23 @@
         <div class="secondaryTitle">
             Coaxial Cable
         </div>
-        <div class="row">
+        <div class="row text-wrapper">
             <div class="tertiaryTitle">What is Coax Cable?</div>
-            Coaxial cable is a type of cable that has an inner conductor surrounded by an insulating layer,
-            surrounded by a conductive shielding. Many also have an insulating outer jacket The diagram below
-            illustrates the construction of a typical cable. Electrical signal flows through the center conductor. </br>
+            Coaxial cable is a type of cable that has an inner conductor surrounded by an insulating layer, surrounded by a conductive shielding. Many also have an insulating outer jacket The diagram below illustrates the construction of a typical cable. Electrical
+            signal flows through the center conductor.
         </div>
-        <div class="row">
+        <div class="row text-wrapper">
             <div class="tertiaryTitle">Where will we see coax cable?</div>
-            Coax cable is a technology that is being phased out but there are many instances where we will come
-            across or use it,
-            obviously the first being inside the server room connecting the receiver to the encoders. The coax cable
-            used to run directly from a receiver to the DVR or monitor. There are also some areas
-            where we have not yet replaced the coax cable. The most common area youll find coax cable still running
-            to a camera is in the North Hotel.Category Cable is ran from our server room (wall) to the casino
-            ceiling.
-            From there , a balun is used to connect the cat cable to a coax cable that runs through the walls up to
-            the camera. When troubleshooting cameras in the north hotel this is very important to remember.
+            Coax cable is a technology that is being phased out but there are many instances where we will come across or use it, obviously the first being inside the server room connecting the receiver to the encoders. The coax cable used to run directly from a
+            receiver to the DVR or monitor. There are also some areas where we have not yet replaced the coax cable. The most common area youll find coax cable still running to a camera is in the North Hotel.Category Cable is ran from our server room
+            (wall) to the casino ceiling. From there , a balun is used to connect the cat cable to a coax cable that runs through the walls up to the camera. When troubleshooting cameras in the north hotel this is very important to remember.
         </div>
         <div class="row">
             <div class="col">
-                <img src="../Images/coaxconstruction.jpg" alt="construction">
+                <img src="../Images/wire/coaxconstruction.jpg" alt="construction">
             </div>
             <div class="col">
-                <img src="../Images/bncdiagram.jpg" alt="bnc diagrams">
+                <img src="../Images/wire/bncdiagram.jpg" alt="bnc diagrams">
             </div>
         </div>
 
@@ -99,75 +80,54 @@
         <div class="secondaryTitle">
             Category(Cat) Cable
         </div>
-        <div style="padding-bottom: 3em;">
-            Category Cable (Cat) comes in different types and sizes. What we use now mainly is Cat5e cable. but there
-            are some areas where you will come across cat 3 but usually we will run cat5e wire in their place.
-            Cat3 Cable only has a data rate of 10 mbps, it is inefficient on modern networks.
-            cat5 cable has a data rate up to 100 mbps and candistribute data, video and telephone signals at distances
-            Cat5e cable has a data rate up to 1gbps.
+        <div class="row text-wrapper">
+            Category Cable (Cat) comes in different types and sizes. What we use now mainly is Cat5e cable. but there are some areas where you will come across cat 3 but usually we will run cat5e wire in their place. Cat3 Cable only has a data rate of 10 mbps, it
+            is inefficient on modern networks. cat5 cable has a data rate up to 100 mbps and candistribute data, video and telephone signals at distances Cat5e cable has a data rate up to 1gbps.
 
         </div>
         <div class="row">
             <div class="col" style="display: flex; justify-content: center;align-self: center;">
-                <img src="../Images/cat5black.jpg " alt="Black Cat">
+                <img src="../Images/wire/cat5black.jpg " alt="Black Cat">
             </div>
-            <div class="col">
-                At the end of Category cables you will find (mostly) RJ45's. The 8 position 8 contact twisted
-                pair jack is the most common and standardized way to connect
-                telecommunincation and data equipment.
-                These will be used when connecting any equipment of ours to our IP network. Our Avigilon digital IP
-                cameras and patch cables are where you will use this most.
-
-                -Color patterns
-                rj45s have specific patterns of wiring called pinouts. such as T-568A and T-568B, and the crossover
-                pinout.
-                The standard we use is T-568B. Each end of the cable must have a matching pinout to ensure proper
-                distribution of data. If they are not the same, the cable will not work
+            <div class="col text-wrapper">
+                At the end of Category cables you will find (mostly) RJ45's. The 8 position 8 contact twisted pair jack is the most common and standardized way to connect telecommunincation and data equipment. These will be used when connecting any equipment of ours
+                to our IP network. Our Avigilon digital IP cameras and patch cables are where you will use this most. -Color patterns rj45s have specific patterns of wiring called pinouts. such as T-568A and T-568B, and the crossover pinout. The standard
+                we use is T-568B. Each end of the cable must have a matching pinout to ensure proper distribution of data. If they are not the same, the cable will not work
 
             </div>
-            <div class="col" style="display: flex; flex-direction: column; justify-content: center;align-self: center;">
-                <img src="../Images/rj45.jpg" alt="rj45">
-                <img src="../Images/cat5vcat5e.png" alt="Cat5 and Cat5E">
+            <div class="col" style="justify-content: center;align-self: center;">
+                <img src="../Images/wire/rj45.jpg" alt="rj45">
+                <img src="../Images/wire/cat5vcat5e.png" alt="Cat5 and Cat5E">
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                The process for terminating a Cat cable is simple and tedious, but can often be done wrong. First you
-                must strip the shielding of the cable to expose the 4 pairs of wire.
-                untwist each pair and straighten them to the best of your ability.
-                manipulate the wire to be in the pattern of your choice (t568b) and ensure they are flat and.
-                you will slide the rj45 over the wires while the pins of the jack are facing you.
-                Ensure the pattern is correct within the jack and use the crimper to secure the termination.
-                once each side is terminated you can test it with the LinkMaster Wiremapper and Tester</br>
+            <div class="col text-wrapper">
+                The process for terminating a Cat cable is simple and tedious, but can often be done wrong. First you must strip the shielding of the cable to expose the 4 pairs of wire. untwist each pair and straighten them to the best of your ability. manipulate the
+                wire to be in the pattern of your choice (t568b) and ensure they are flat and. you will slide the rj45 over the wires while the pins of the jack are facing you. Ensure the pattern is correct within the jack and use the crimper to secure
+                the termination. once each side is terminated you can test it with the LinkMaster Wiremapper and Tester</br>
                 <b>REMEMBER TO NEVER CUT CAT CABLE IF IT IS PLUGGED INTO THE SWITCH</b>
             </div>
             <div class="col">
-                <img id="comparison" src="../Images/t568b.jpg" alt="T-568B">
+                <img id="comparison" src="../Images/wire/t568b.jpg" alt="T-568B">
             </div>
             <div class="col">
 
             </div>
         </div>
-        <div style="padding-top:3em" class="row">
+        <div class="row text-wrapper">
             <div class="tertiaryTitle">Testing Cat Cable</div>
-            Testing a Cat cable is done using a tool we have called "LinkMaster Wiremapper and Tester"
-            Each end of the cable is plugged into either of the boxes of the wiremapper. It's usually most convenient to
-            connect the first
-            end to the box without a button, and take the controller (button) with you to the location of the opposite
-            end of the cable.
-            Once it's plugged in and the button is pressed a signal is sent to the other end and back again. This will
-            tell you if the cable
-            is properly terminated.
+            Testing a Cat cable is done using a tool we have called "LinkMaster Wiremapper and Tester" Each end of the cable is plugged into either of the boxes of the wiremapper. It's usually most convenient to connect the first end to the box without a button,
+            and take the controller (button) with you to the location of the opposite end of the cable. Once it's plugged in and the button is pressed a signal is sent to the other end and back again. This will tell you if the cable is properly terminated.
         </div>
-        <div style="padding-top:3em" class="row">
+        <div class="row text-wrapper">
             <div class="col">
                 If the cable terminations are proper and the patterns match, this is the result you will get
-                <img src="../Images/goodtest.jpg" alt="positive test">
+                <img src="../Images/tools/goodtest.jpg" alt="positive test">
             </div>
             <div class="col">
                 If the patterns are not matching, you will get a result similar to this</br>
                 Notice the Red light on the bottom that indicatess a "Miswire"
-                <img src="../Images/badtest.jpg" alt="bad test">
+                <img src="../Images/tools/badtest.jpg" alt="bad test">
             </div>
         </div>
 
@@ -180,19 +140,12 @@
 
         <div class="row">
             <div class="col">
-                <img style="height:500px;width: auto;" src="../Images/toner.jpg" alt="toner">
+                <img style="height:500px;width: auto;" src="../Images/tools/toner.jpg" alt="toner">
             </div>
-            <div class="col">
-                A Toner and Probe is used to trace pairs of wire within a Cat cable.
-                Simply, each clamp is clipped to either of the wires in a pair.
-                Then to turn on the Toner you press the button on the left with the words "Off, Solid, Alt"
-                These indicate the three settings of a toner.
-                Off obviously means that the toner is not powered on.
-                Solid means that the toner will send an electric signal through the line which is audible
-                when the probe is near it, in a constant tone.
-                Alt means the toner will sound off in different patterns of tones, making it easier to trace and
-                identify
-                different pairs of wires.
+            <div class="col text-wrapper">
+                A Toner and Probe is used to trace pairs of wire within a Cat cable. Simply, each clamp is clipped to either of the wires in a pair. Then to turn on the Toner you press the button on the left with the words "Off, Solid, Alt" These indicate the three settings
+                of a toner. Off obviously means that the toner is not powered on. Solid means that the toner will send an electric signal through the line which is audible when the probe is near it, in a constant tone. Alt means the toner will sound off
+                in different patterns of tones, making it easier to trace and identify different pairs of wires.
             </div>
         </div>
     </div>
