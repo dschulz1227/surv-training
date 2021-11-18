@@ -61,6 +61,8 @@ div {
 
 #roundImage {
     border-radius: 15%;
+    max-width: 280px;
+    max-height: 2500px;
 }
 
 .navDisplay {
