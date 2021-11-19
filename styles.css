@@ -23,6 +23,7 @@ a {
 
 .container {
     display: grid;
+    justify-content: center;
     background-size: cover;
     min-width: 90%;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -52,6 +53,7 @@ img {
     position: relative;
     padding: 1em;
     transition: transform 0.25s ease;
+    opacity: 1;
 }
 
 div {
@@ -119,6 +121,7 @@ ul {
     font-family: 'Teko', sans-serif;
     font-weight: 300;
     text-shadow: 1px 1px white;
+    padding-bottom: 1em;
 }
 
 .tertiaryTitle {
@@ -191,21 +194,37 @@ img:hover {
     margin: .5em;
 }
 
-
-/* Add rounded corners to the top left and the top right corner of the image */
-
-img {
-    border-radius: 5px 5px 0 0;
-}
-
 .text-wrapper {
     background-color: rgb(200, 240, 252);
     opacity: .78;
     background-blend-mode: soft-light;
-    margin: 2em;
-    /* width: fit-content; */
-    height: fit-content;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 100%;
+    height: auto;
     padding: .5em;
     border-style: none;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 5px 5px;
+    justify-self: center;
+    margin: 1em;
+}
+
+.outline {
+    border-style: ridge;
+    border-width: .09px;
+    border-color: rgb(187, 186, 186);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 1em;
+}
+
+.is-centered {
+    text-align: center;
+    /* align-items: center; */
+}
+
+.label-wrapper {
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
 }
